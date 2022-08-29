@@ -1,6 +1,9 @@
 body {
-  background-color: #F0F0F0;
-
+  background-color: #fff;
+  background-image: url("../img/background-image.png");
+  background-repeat: no-repeat;
+  background-position: 50px 30px;
+  background-size: 100%;
   .component {
     width: 800px;
     height: 500px;
@@ -32,36 +35,43 @@ body {
       }
     }
 
-    .parent-footer-box{
+    .parent-footer-box {
       width: 100%;
       height: 315px;
       display: flex;
-      .left-box , .right-box{
+
+      .left-box, .right-box {
         width: 400px;
         height: 315px;
         border: 1px solid transparent;
         box-sizing: border-box;
       }
-      .left-box{
+
+      .left-box {
         background-color: #2BB3B1;
         color: #ffffff;
         padding: 30px;
-        .title-left-box{
+
+        .title-left-box {
           font-size: 1.3rem;
         }
-        span:nth-child(1){
+
+        span:nth-child(1) {
           font-size: 1.5rem;
           font-weight: bold;
         }
-        span:nth-child(2){
+
+        span:nth-child(2) {
           color: #ffffff91;
         }
-        .btn-box{
+
+        .btn-box {
           display: flex;
           justify-content: center;
           align-items: center;
           margin: 40px auto;
-          .sign-up{
+
+          .sign-up {
             padding: 10px 40%;
             background-color: #BFDF32;
             border: 1px solid transparent;
@@ -70,7 +80,8 @@ body {
             box-shadow: 0 0 10px #00000071;
             border-radius: 5px;
             font-size: 1.2rem;
-            &:hover{
+
+            &:hover {
               color: #BFDF32;
               background-color: white;
               transition: all 200ms linear;
@@ -78,8 +89,12 @@ body {
           }
         }
       }
-      .right-box{
+
+      .right-box {
+        color: #ffffff;
+        padding: 30px;
         background-color: #4ABEBD;
+        line-height: 30px;
       }
     }
   }

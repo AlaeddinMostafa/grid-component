@@ -1,5 +1,9 @@
 body {
-  background-color: #F0F0F0;
+  background-color: #fff;
+  background-image: url("../img/background-image.png");
+  background-repeat: no-repeat;
+  background-position: 50px 30px;
+  background-size: 100%;
 }
 body .component {
   width: 800px;
@@ -76,7 +80,10 @@ body .component .parent-footer-box .left-box .btn-box .sign-up:hover {
   transition: all 200ms linear;
 }
 body .component .parent-footer-box .right-box {
+  color: #ffffff;
+  padding: 30px;
   background-color: #4ABEBD;
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
